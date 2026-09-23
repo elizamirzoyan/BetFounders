@@ -1,0 +1,1528 @@
+<!doctype html>
+<html><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>BetFounders Data Report</title>
+<script src="https://cdn.jsdelivr.net/npm/plotly.js-dist-min@3.5.0/plotly.min.js"></script>
+<style>
+body { font-family: system-ui, sans-serif; margin: 0 auto; max-width: 1200px; padding: 24px 16px; color: #222; background: #fafafa; }
+section { background: #fff; border-radius: 8px; padding: 16px; margin-bottom: 24px; box-shadow: 0 1px 3px #0001; }
+.cards { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 16px; margin-bottom: 24px; }
+.card { background: #fff; border-radius: 8px; padding: 16px; box-shadow: 0 1px 3px #0001; }
+.card span { display: block; color: #666; font-size: 14px; } .card b { font-size: 28px; }
+.table { max-height: 500px; overflow: auto; }
+table { border-collapse: collapse; width: 100%; font-size: 13px; }
+th, td { padding: 6px 10px; border-bottom: 1px solid #eee; text-align: left; }
+th { position: sticky; top: 0; background: #f0f0f0; }
+</style></head><body>
+<h1>BetFounders Data Report</h1>
+<div class="cards"><div class='card'><span>Users</span><b>6,883</b></div><div class='card'><span>Reset code success</span><b>76.3%</b></div><div class='card'><span>Register code success</span><b>58.3%</b></div><div class='card'><span>Problematic users</span><b>166</b></div></div>
+<section><h2>1. Registrations</h2><div>                            <div id="035e4924-7a38-4cb4-9ae5-715adde15415" class="plotly-graph-div" style="height:100%; width:100%;"></div>            <script>                window.PLOTLYENV=window.PLOTLYENV || {};                                if (document.getElementById("035e4924-7a38-4cb4-9ae5-715adde15415")) {                    Plotly.newPlot(                        "035e4924-7a38-4cb4-9ae5-715adde15415",                        [{"marker":{"color":"#2e7d32"},"name":"Active","x":["2026-08-15","2026-08-16","2026-08-17","2026-08-18","2026-08-19","2026-08-20","2026-08-21","2026-08-22","2026-08-23","2026-08-24","2026-08-25","2026-08-26","2026-08-27","2026-08-28","2026-08-29","2026-08-30","2026-08-31","2026-09-01","2026-09-02","2026-09-03","2026-09-04","2026-09-05","2026-09-06","2026-09-07","2026-09-08","2026-09-09","2026-09-10","2026-09-11","2026-09-12","2026-09-13","2026-09-14"],"y":{"dtype":"i2","bdata":"UwCPAkQBSgHyAIEAUwBSAGcASwBNAFoARwBVAD8AOABTAEwAqAC1AI4AYQCiAEcAggB\u002fAAABGAEjASEBGwA="},"type":"bar"},{"marker":{"color":"#f9a825"},"name":"Pending activation","x":["2026-08-15","2026-08-16","2026-08-17","2026-08-18","2026-08-19","2026-08-20","2026-08-21","2026-08-22","2026-08-23","2026-08-24","2026-08-25","2026-08-26","2026-08-27","2026-08-28","2026-08-29","2026-08-30","2026-08-31","2026-09-01","2026-09-02","2026-09-03","2026-09-04","2026-09-05","2026-09-06","2026-09-07","2026-09-08","2026-09-09","2026-09-10","2026-09-11","2026-09-12","2026-09-13","2026-09-14"],"y":{"dtype":"i2","bdata":"CAAfACQACwAaABEAFQAJAAsAEAAPACcADAAVABYAMQAoACIAbACIAGAASwBPAB0ATwBUAJAA3QDzANoAGQA="},"type":"bar"}],                        {"template":{"data":{"histogram2dcontour":[{"type":"histogram2dcontour","colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]]}],"choropleth":[{"type":"choropleth","colorbar":{"outlinewidth":0,"ticks":""}}],"histogram2d":[{"type":"histogram2d","colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]]}],"heatmap":[{"type":"heatmap","colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]]}],"contourcarpet":[{"type":"contourcarpet","colorbar":{"outlinewidth":0,"ticks":""}}],"contour":[{"type":"contour","colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]]}],"surface":[{"type":"surface","colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]]}],"mesh3d":[{"type":"mesh3d","colorbar":{"outlinewidth":0,"ticks":""}}],"scatter":[{"fillpattern":{"fillmode":"overlay","size":10,"solidity":0.2},"type":"scatter"}],"parcoords":[{"type":"parcoords","line":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"scatterpolargl":[{"type":"scatterpolargl","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"bar":[{"error_x":{"color":"#2a3f5f"},"error_y":{"color":"#2a3f5f"},"marker":{"line":{"color":"#E5ECF6","width":0.5},"pattern":{"fillmode":"overlay","size":10,"solidity":0.2}},"type":"bar"}],"scattergeo":[{"type":"scattergeo","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"scatterpolar":[{"type":"scatterpolar","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"histogram":[{"marker":{"pattern":{"fillmode":"overlay","size":10,"solidity":0.2}},"type":"histogram"}],"scattergl":[{"type":"scattergl","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"scatter3d":[{"type":"scatter3d","line":{"colorbar":{"outlinewidth":0,"ticks":""}},"marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"scattermap":[{"type":"scattermap","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"scattermapbox":[{"type":"scattermapbox","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"scatterternary":[{"type":"scatterternary","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"scattercarpet":[{"type":"scattercarpet","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"carpet":[{"aaxis":{"endlinecolor":"#2a3f5f","gridcolor":"white","linecolor":"white","minorgridcolor":"white","startlinecolor":"#2a3f5f"},"baxis":{"endlinecolor":"#2a3f5f","gridcolor":"white","linecolor":"white","minorgridcolor":"white","startlinecolor":"#2a3f5f"},"type":"carpet"}],"table":[{"cells":{"fill":{"color":"#EBF0F8"},"line":{"color":"white"}},"header":{"fill":{"color":"#C8D4E3"},"line":{"color":"white"}},"type":"table"}],"barpolar":[{"marker":{"line":{"color":"#E5ECF6","width":0.5},"pattern":{"fillmode":"overlay","size":10,"solidity":0.2}},"type":"barpolar"}],"pie":[{"automargin":true,"type":"pie"}]},"layout":{"autotypenumbers":"strict","colorway":["#636efa","#EF553B","#00cc96","#ab63fa","#FFA15A","#19d3f3","#FF6692","#B6E880","#FF97FF","#FECB52"],"font":{"color":"#2a3f5f"},"hovermode":"closest","hoverlabel":{"align":"left"},"paper_bgcolor":"white","plot_bgcolor":"#E5ECF6","polar":{"bgcolor":"#E5ECF6","angularaxis":{"gridcolor":"white","linecolor":"white","ticks":""},"radialaxis":{"gridcolor":"white","linecolor":"white","ticks":""}},"ternary":{"bgcolor":"#E5ECF6","aaxis":{"gridcolor":"white","linecolor":"white","ticks":""},"baxis":{"gridcolor":"white","linecolor":"white","ticks":""},"caxis":{"gridcolor":"white","linecolor":"white","ticks":""}},"coloraxis":{"colorbar":{"outlinewidth":0,"ticks":""}},"colorscale":{"sequential":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]],"sequentialminus":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]],"diverging":[[0,"#8e0152"],[0.1,"#c51b7d"],[0.2,"#de77ae"],[0.3,"#f1b6da"],[0.4,"#fde0ef"],[0.5,"#f7f7f7"],[0.6,"#e6f5d0"],[0.7,"#b8e186"],[0.8,"#7fbc41"],[0.9,"#4d9221"],[1,"#276419"]]},"xaxis":{"gridcolor":"white","linecolor":"white","ticks":"","title":{"standoff":15},"zerolinecolor":"white","automargin":true,"zerolinewidth":2},"yaxis":{"gridcolor":"white","linecolor":"white","ticks":"","title":{"standoff":15},"zerolinecolor":"white","automargin":true,"zerolinewidth":2},"scene":{"xaxis":{"backgroundcolor":"#E5ECF6","gridcolor":"white","linecolor":"white","showbackground":true,"ticks":"","zerolinecolor":"white","gridwidth":2},"yaxis":{"backgroundcolor":"#E5ECF6","gridcolor":"white","linecolor":"white","showbackground":true,"ticks":"","zerolinecolor":"white","gridwidth":2},"zaxis":{"backgroundcolor":"#E5ECF6","gridcolor":"white","linecolor":"white","showbackground":true,"ticks":"","zerolinecolor":"white","gridwidth":2}},"shapedefaults":{"line":{"color":"#2a3f5f"}},"annotationdefaults":{"arrowcolor":"#2a3f5f","arrowhead":0,"arrowwidth":1},"geo":{"bgcolor":"white","landcolor":"#E5ECF6","subunitcolor":"white","showland":true,"showlakes":true,"lakecolor":"white"},"title":{"x":0.05},"mapbox":{"style":"light"}}},"barmode":"stack","title":{"text":"Daily registrations (6883 users)"},"xaxis":{"title":{"text":"Date"}},"yaxis":{"title":{"text":"Registrations"}},"legend":{"title":{"text":"User state"}},"hovermode":"x unified"},                        {"responsive": true}                    )                };            </script>        </div></section><section><h2>2. Reset code success rate</h2><div>                            <div id="8bacbb28-6c48-43b8-b96c-28c0db7f9bb9" class="plotly-graph-div" style="height:100%; width:100%;"></div>            <script>                window.PLOTLYENV=window.PLOTLYENV || {};                                if (document.getElementById("8bacbb28-6c48-43b8-b96c-28c0db7f9bb9")) {                    Plotly.newPlot(                        "8bacbb28-6c48-43b8-b96c-28c0db7f9bb9",                        [{"hole":0.4,"labels":["Succeed","Pending activation","Expired"],"marker":{"colors":["#2e7d32","#f9a825","#c62828"]},"values":{"dtype":"i2","bdata":"GAFBABYA"},"type":"pie","domain":{"x":[0.0,0.315],"y":[0.0,1.0]}},{"customdata":{"dtype":"i1","bdata":"ExAWDRAICAcHBQoFBgYIDw4GCQ8LDAgOCAwLCBoTFw=="},"hovertemplate":"%{x}\u003cbr\u003e%{y:.1f}% of %{customdata} codes\u003cextra\u003e\u003c\u002fextra\u003e","mode":"lines+markers","name":"Daily rate","x":["2026-08-14","2026-08-15","2026-08-16","2026-08-17","2026-08-18","2026-08-19","2026-08-20","2026-08-21","2026-08-22","2026-08-23","2026-08-24","2026-08-25","2026-08-26","2026-08-27","2026-08-28","2026-08-29","2026-08-30","2026-08-31","2026-09-01","2026-09-02","2026-09-03","2026-09-04","2026-09-05","2026-09-06","2026-09-07","2026-09-08","2026-09-09","2026-09-10","2026-09-11","2026-09-12","2026-09-13"],"y":{"dtype":"f8","bdata":"Q3kN5TWUT0AAAAAAAHBXQHXRRRdddFRAdmIndmInVUAAAAAAAMBSQAAAAAAA4FVAAAAAAADAUkAAAAAAAABZQNu2bdu2bUVAAAAAAAAAWUAAAAAAAIBRQAAAAAAAAFlAVlVVVVXVVEAAAAAAAABZQAAAAAAAQE9AVVVVVVVVUkAAAAAAAABJQFZVVVVV1VRAAAAAAAAAWUAAAAAAAABOQHXRRRdddFRAqqqqqqrqVkAAAAAAAMBSQLdt27Zt21FAAAAAAADgVUCrqqqqqipNQLrooosuulZAAAAAAADgVUDFTuzETuxKQMprKK+hvFNAetOb3vSmVEA="},"type":"scatter","xaxis":"x","yaxis":"y"},{"line":{"color":"gray","dash":"dash"},"mode":"lines","name":"Overall 76.3%","x":["2026-08-14","2026-09-13"],"y":[76.29427792915531,76.29427792915531],"type":"scatter","xaxis":"x","yaxis":"y"}],                        {"template":{"data":{"histogram2dcontour":[{"type":"histogram2dcontour","colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]]}],"choropleth":[{"type":"choropleth","colorbar":{"outlinewidth":0,"ticks":""}}],"histogram2d":[{"type":"histogram2d","colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]]}],"heatmap":[{"type":"heatmap","colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]]}],"contourcarpet":[{"type":"contourcarpet","colorbar":{"outlinewidth":0,"ticks":""}}],"contour":[{"type":"contour","colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]]}],"surface":[{"type":"surface","colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]]}],"mesh3d":[{"type":"mesh3d","colorbar":{"outlinewidth":0,"ticks":""}}],"scatter":[{"fillpattern":{"fillmode":"overlay","size":10,"solidity":0.2},"type":"scatter"}],"parcoords":[{"type":"parcoords","line":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"scatterpolargl":[{"type":"scatterpolargl","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"bar":[{"error_x":{"color":"#2a3f5f"},"error_y":{"color":"#2a3f5f"},"marker":{"line":{"color":"#E5ECF6","width":0.5},"pattern":{"fillmode":"overlay","size":10,"solidity":0.2}},"type":"bar"}],"scattergeo":[{"type":"scattergeo","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"scatterpolar":[{"type":"scatterpolar","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"histogram":[{"marker":{"pattern":{"fillmode":"overlay","size":10,"solidity":0.2}},"type":"histogram"}],"scattergl":[{"type":"scattergl","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"scatter3d":[{"type":"scatter3d","line":{"colorbar":{"outlinewidth":0,"ticks":""}},"marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"scattermap":[{"type":"scattermap","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"scattermapbox":[{"type":"scattermapbox","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"scatterternary":[{"type":"scatterternary","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"scattercarpet":[{"type":"scattercarpet","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"carpet":[{"aaxis":{"endlinecolor":"#2a3f5f","gridcolor":"white","linecolor":"white","minorgridcolor":"white","startlinecolor":"#2a3f5f"},"baxis":{"endlinecolor":"#2a3f5f","gridcolor":"white","linecolor":"white","minorgridcolor":"white","startlinecolor":"#2a3f5f"},"type":"carpet"}],"table":[{"cells":{"fill":{"color":"#EBF0F8"},"line":{"color":"white"}},"header":{"fill":{"color":"#C8D4E3"},"line":{"color":"white"}},"type":"table"}],"barpolar":[{"marker":{"line":{"color":"#E5ECF6","width":0.5},"pattern":{"fillmode":"overlay","size":10,"solidity":0.2}},"type":"barpolar"}],"pie":[{"automargin":true,"type":"pie"}]},"layout":{"autotypenumbers":"strict","colorway":["#636efa","#EF553B","#00cc96","#ab63fa","#FFA15A","#19d3f3","#FF6692","#B6E880","#FF97FF","#FECB52"],"font":{"color":"#2a3f5f"},"hovermode":"closest","hoverlabel":{"align":"left"},"paper_bgcolor":"white","plot_bgcolor":"#E5ECF6","polar":{"bgcolor":"#E5ECF6","angularaxis":{"gridcolor":"white","linecolor":"white","ticks":""},"radialaxis":{"gridcolor":"white","linecolor":"white","ticks":""}},"ternary":{"bgcolor":"#E5ECF6","aaxis":{"gridcolor":"white","linecolor":"white","ticks":""},"baxis":{"gridcolor":"white","linecolor":"white","ticks":""},"caxis":{"gridcolor":"white","linecolor":"white","ticks":""}},"coloraxis":{"colorbar":{"outlinewidth":0,"ticks":""}},"colorscale":{"sequential":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]],"sequentialminus":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]],"diverging":[[0,"#8e0152"],[0.1,"#c51b7d"],[0.2,"#de77ae"],[0.3,"#f1b6da"],[0.4,"#fde0ef"],[0.5,"#f7f7f7"],[0.6,"#e6f5d0"],[0.7,"#b8e186"],[0.8,"#7fbc41"],[0.9,"#4d9221"],[1,"#276419"]]},"xaxis":{"gridcolor":"white","linecolor":"white","ticks":"","title":{"standoff":15},"zerolinecolor":"white","automargin":true,"zerolinewidth":2},"yaxis":{"gridcolor":"white","linecolor":"white","ticks":"","title":{"standoff":15},"zerolinecolor":"white","automargin":true,"zerolinewidth":2},"scene":{"xaxis":{"backgroundcolor":"#E5ECF6","gridcolor":"white","linecolor":"white","showbackground":true,"ticks":"","zerolinecolor":"white","gridwidth":2},"yaxis":{"backgroundcolor":"#E5ECF6","gridcolor":"white","linecolor":"white","showbackground":true,"ticks":"","zerolinecolor":"white","gridwidth":2},"zaxis":{"backgroundcolor":"#E5ECF6","gridcolor":"white","linecolor":"white","showbackground":true,"ticks":"","zerolinecolor":"white","gridwidth":2}},"shapedefaults":{"line":{"color":"#2a3f5f"}},"annotationdefaults":{"arrowcolor":"#2a3f5f","arrowhead":0,"arrowwidth":1},"geo":{"bgcolor":"white","landcolor":"#E5ECF6","subunitcolor":"white","showland":true,"showlakes":true,"lakecolor":"white"},"title":{"x":0.05},"mapbox":{"style":"light"}}},"xaxis":{"anchor":"y","domain":[0.41500000000000004,1.0],"title":{"text":"Date"}},"yaxis":{"anchor":"x","domain":[0.0,1.0],"title":{"text":"Success rate (%)"},"range":[0,105]},"annotations":[{"font":{"size":16},"showarrow":false,"text":"Reset code states (367 codes)","x":0.1575,"xanchor":"center","xref":"paper","y":1.0,"yanchor":"bottom","yref":"paper"},{"font":{"size":16},"showarrow":false,"text":"Daily reset code success rate","x":0.7075,"xanchor":"center","xref":"paper","y":1.0,"yanchor":"bottom","yref":"paper"}]},                        {"responsive": true}                    )                };            </script>        </div></section><section><h2>3. Register code success rate</h2><div>                            <div id="a3fd2db0-5733-4a55-b4d2-678a665b6b64" class="plotly-graph-div" style="height:100%; width:100%;"></div>            <script>                window.PLOTLYENV=window.PLOTLYENV || {};                                if (document.getElementById("a3fd2db0-5733-4a55-b4d2-678a665b6b64")) {                    Plotly.newPlot(                        "a3fd2db0-5733-4a55-b4d2-678a665b6b64",                        [{"hole":0.4,"labels":["Succeed","Expired","Pending activation"],"marker":{"colors":["#2e7d32","#c62828","#f9a825"]},"values":{"dtype":"i2","bdata":"UR72DLMI"},"type":"pie","domain":{"x":[0.0,0.315],"y":[0.0,1.0]}},{"customdata":{"dtype":"i2","bdata":"GgcEBicD4AGJATgBvwCYAHoAlADZAIoAswBrAJQAiwCvANEAkAC0AQoCggEUAWIBogBXAU0BPAIrAyIDKgNQAA=="},"hovertemplate":"%{x}\u003cbr\u003e%{y:.1f}% of %{customdata} codes\u003cextra\u003e\u003c\u002fextra\u003e","mode":"lines+markers","name":"Daily rate","x":["2026-08-14","2026-08-15","2026-08-16","2026-08-17","2026-08-18","2026-08-19","2026-08-20","2026-08-21","2026-08-22","2026-08-23","2026-08-24","2026-08-25","2026-08-26","2026-08-27","2026-08-28","2026-08-29","2026-08-30","2026-08-31","2026-09-01","2026-09-02","2026-09-03","2026-09-04","2026-09-05","2026-09-06","2026-09-07","2026-09-08","2026-09-09","2026-09-10","2026-09-11","2026-09-12","2026-09-13","2026-09-14"],"y":{"dtype":"f8","bdata":"OUns3ZxfVkDH1MDeMTVWQNqZ7TW6w1NAVVVVVVWdUEBUx97aMM1UQPqWb\u002fmWT1NAHZZwVH+fUEAN5TWU11BKQB1t3qe4ZFBA+awbTJEPUUD2R\u002fuj\u002fdFAQK8dmGsH5ktAztDafbgFSED7hVhRGh9QQA6myGfdYExATGV71wHdRECTJEmSJEk+QPW4GfvDYENAAAAAAAAASUCWwKb9ZAlDQFkhxj7ADEFA84mYzaVDQkCCuXZgrh1CQMhWBA0ndUZAWKQMPN2aRUAi5Xs2oRhDQEogLtScBEJAmCXlgMjwRUCaTpX14hNBQDQ\u002fTZdjJEJAxCJl4OnWQUAAAAAAAOBAQA=="},"type":"scatter","xaxis":"x","yaxis":"y"},{"line":{"color":"gray","dash":"dash"},"mode":"lines","name":"Overall 58.3%","x":["2026-08-14","2026-09-14"],"y":[58.327070494513755,58.327070494513755],"type":"scatter","xaxis":"x","yaxis":"y"}],                        {"template":{"data":{"histogram2dcontour":[{"type":"histogram2dcontour","colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]]}],"choropleth":[{"type":"choropleth","colorbar":{"outlinewidth":0,"ticks":""}}],"histogram2d":[{"type":"histogram2d","colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]]}],"heatmap":[{"type":"heatmap","colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]]}],"contourcarpet":[{"type":"contourcarpet","colorbar":{"outlinewidth":0,"ticks":""}}],"contour":[{"type":"contour","colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]]}],"surface":[{"type":"surface","colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]]}],"mesh3d":[{"type":"mesh3d","colorbar":{"outlinewidth":0,"ticks":""}}],"scatter":[{"fillpattern":{"fillmode":"overlay","size":10,"solidity":0.2},"type":"scatter"}],"parcoords":[{"type":"parcoords","line":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"scatterpolargl":[{"type":"scatterpolargl","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"bar":[{"error_x":{"color":"#2a3f5f"},"error_y":{"color":"#2a3f5f"},"marker":{"line":{"color":"#E5ECF6","width":0.5},"pattern":{"fillmode":"overlay","size":10,"solidity":0.2}},"type":"bar"}],"scattergeo":[{"type":"scattergeo","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"scatterpolar":[{"type":"scatterpolar","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"histogram":[{"marker":{"pattern":{"fillmode":"overlay","size":10,"solidity":0.2}},"type":"histogram"}],"scattergl":[{"type":"scattergl","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"scatter3d":[{"type":"scatter3d","line":{"colorbar":{"outlinewidth":0,"ticks":""}},"marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"scattermap":[{"type":"scattermap","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"scattermapbox":[{"type":"scattermapbox","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"scatterternary":[{"type":"scatterternary","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"scattercarpet":[{"type":"scattercarpet","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"carpet":[{"aaxis":{"endlinecolor":"#2a3f5f","gridcolor":"white","linecolor":"white","minorgridcolor":"white","startlinecolor":"#2a3f5f"},"baxis":{"endlinecolor":"#2a3f5f","gridcolor":"white","linecolor":"white","minorgridcolor":"white","startlinecolor":"#2a3f5f"},"type":"carpet"}],"table":[{"cells":{"fill":{"color":"#EBF0F8"},"line":{"color":"white"}},"header":{"fill":{"color":"#C8D4E3"},"line":{"color":"white"}},"type":"table"}],"barpolar":[{"marker":{"line":{"color":"#E5ECF6","width":0.5},"pattern":{"fillmode":"overlay","size":10,"solidity":0.2}},"type":"barpolar"}],"pie":[{"automargin":true,"type":"pie"}]},"layout":{"autotypenumbers":"strict","colorway":["#636efa","#EF553B","#00cc96","#ab63fa","#FFA15A","#19d3f3","#FF6692","#B6E880","#FF97FF","#FECB52"],"font":{"color":"#2a3f5f"},"hovermode":"closest","hoverlabel":{"align":"left"},"paper_bgcolor":"white","plot_bgcolor":"#E5ECF6","polar":{"bgcolor":"#E5ECF6","angularaxis":{"gridcolor":"white","linecolor":"white","ticks":""},"radialaxis":{"gridcolor":"white","linecolor":"white","ticks":""}},"ternary":{"bgcolor":"#E5ECF6","aaxis":{"gridcolor":"white","linecolor":"white","ticks":""},"baxis":{"gridcolor":"white","linecolor":"white","ticks":""},"caxis":{"gridcolor":"white","linecolor":"white","ticks":""}},"coloraxis":{"colorbar":{"outlinewidth":0,"ticks":""}},"colorscale":{"sequential":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]],"sequentialminus":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]],"diverging":[[0,"#8e0152"],[0.1,"#c51b7d"],[0.2,"#de77ae"],[0.3,"#f1b6da"],[0.4,"#fde0ef"],[0.5,"#f7f7f7"],[0.6,"#e6f5d0"],[0.7,"#b8e186"],[0.8,"#7fbc41"],[0.9,"#4d9221"],[1,"#276419"]]},"xaxis":{"gridcolor":"white","linecolor":"white","ticks":"","title":{"standoff":15},"zerolinecolor":"white","automargin":true,"zerolinewidth":2},"yaxis":{"gridcolor":"white","linecolor":"white","ticks":"","title":{"standoff":15},"zerolinecolor":"white","automargin":true,"zerolinewidth":2},"scene":{"xaxis":{"backgroundcolor":"#E5ECF6","gridcolor":"white","linecolor":"white","showbackground":true,"ticks":"","zerolinecolor":"white","gridwidth":2},"yaxis":{"backgroundcolor":"#E5ECF6","gridcolor":"white","linecolor":"white","showbackground":true,"ticks":"","zerolinecolor":"white","gridwidth":2},"zaxis":{"backgroundcolor":"#E5ECF6","gridcolor":"white","linecolor":"white","showbackground":true,"ticks":"","zerolinecolor":"white","gridwidth":2}},"shapedefaults":{"line":{"color":"#2a3f5f"}},"annotationdefaults":{"arrowcolor":"#2a3f5f","arrowhead":0,"arrowwidth":1},"geo":{"bgcolor":"white","landcolor":"#E5ECF6","subunitcolor":"white","showland":true,"showlakes":true,"lakecolor":"white"},"title":{"x":0.05},"mapbox":{"style":"light"}}},"xaxis":{"anchor":"y","domain":[0.41500000000000004,1.0],"title":{"text":"Date"}},"yaxis":{"anchor":"x","domain":[0.0,1.0],"title":{"text":"Success rate (%)"},"range":[0,105]},"annotations":[{"font":{"size":16},"showarrow":false,"text":"Register code states (13306 codes)","x":0.1575,"xanchor":"center","xref":"paper","y":1.0,"yanchor":"bottom","yref":"paper"},{"font":{"size":16},"showarrow":false,"text":"Daily register code success rate","x":0.7075,"xanchor":"center","xref":"paper","y":1.0,"yanchor":"bottom","yref":"paper"}]},                        {"responsive": true}                    )                };            </script>        </div></section><section><h2>4. Problematic users</h2><div>                            <div id="88ce9835-3d2a-48e0-a36a-8babcb5415f7" class="plotly-graph-div" style="height:100%; width:100%;"></div>            <script>                window.PLOTLYENV=window.PLOTLYENV || {};                                if (document.getElementById("88ce9835-3d2a-48e0-a36a-8babcb5415f7")) {                    Plotly.newPlot(                        "88ce9835-3d2a-48e0-a36a-8babcb5415f7",                        [{"marker":{"color":"#c62828"},"orientation":"h","text":{"dtype":"f8","bdata":"AAAAAAAALEAAAAAAAABUQAAAAAAAAAAAAAAAAAAAAAAAAAAAAIBWQAAAAAAAAABA"},"x":{"dtype":"i1","bdata":"DlAAAFoC"},"y":["No register code","Active without succeeded register code","Pending user with succeeded register code","More than one succeeded register code","5+ expired register codes","Pending user with succeeded reset code"],"type":"bar"}],                        {"template":{"data":{"histogram2dcontour":[{"type":"histogram2dcontour","colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]]}],"choropleth":[{"type":"choropleth","colorbar":{"outlinewidth":0,"ticks":""}}],"histogram2d":[{"type":"histogram2d","colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]]}],"heatmap":[{"type":"heatmap","colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]]}],"contourcarpet":[{"type":"contourcarpet","colorbar":{"outlinewidth":0,"ticks":""}}],"contour":[{"type":"contour","colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]]}],"surface":[{"type":"surface","colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]]}],"mesh3d":[{"type":"mesh3d","colorbar":{"outlinewidth":0,"ticks":""}}],"scatter":[{"fillpattern":{"fillmode":"overlay","size":10,"solidity":0.2},"type":"scatter"}],"parcoords":[{"type":"parcoords","line":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"scatterpolargl":[{"type":"scatterpolargl","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"bar":[{"error_x":{"color":"#2a3f5f"},"error_y":{"color":"#2a3f5f"},"marker":{"line":{"color":"#E5ECF6","width":0.5},"pattern":{"fillmode":"overlay","size":10,"solidity":0.2}},"type":"bar"}],"scattergeo":[{"type":"scattergeo","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"scatterpolar":[{"type":"scatterpolar","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"histogram":[{"marker":{"pattern":{"fillmode":"overlay","size":10,"solidity":0.2}},"type":"histogram"}],"scattergl":[{"type":"scattergl","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"scatter3d":[{"type":"scatter3d","line":{"colorbar":{"outlinewidth":0,"ticks":""}},"marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"scattermap":[{"type":"scattermap","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"scattermapbox":[{"type":"scattermapbox","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"scatterternary":[{"type":"scatterternary","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"scattercarpet":[{"type":"scattercarpet","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"carpet":[{"aaxis":{"endlinecolor":"#2a3f5f","gridcolor":"white","linecolor":"white","minorgridcolor":"white","startlinecolor":"#2a3f5f"},"baxis":{"endlinecolor":"#2a3f5f","gridcolor":"white","linecolor":"white","minorgridcolor":"white","startlinecolor":"#2a3f5f"},"type":"carpet"}],"table":[{"cells":{"fill":{"color":"#EBF0F8"},"line":{"color":"white"}},"header":{"fill":{"color":"#C8D4E3"},"line":{"color":"white"}},"type":"table"}],"barpolar":[{"marker":{"line":{"color":"#E5ECF6","width":0.5},"pattern":{"fillmode":"overlay","size":10,"solidity":0.2}},"type":"barpolar"}],"pie":[{"automargin":true,"type":"pie"}]},"layout":{"autotypenumbers":"strict","colorway":["#636efa","#EF553B","#00cc96","#ab63fa","#FFA15A","#19d3f3","#FF6692","#B6E880","#FF97FF","#FECB52"],"font":{"color":"#2a3f5f"},"hovermode":"closest","hoverlabel":{"align":"left"},"paper_bgcolor":"white","plot_bgcolor":"#E5ECF6","polar":{"bgcolor":"#E5ECF6","angularaxis":{"gridcolor":"white","linecolor":"white","ticks":""},"radialaxis":{"gridcolor":"white","linecolor":"white","ticks":""}},"ternary":{"bgcolor":"#E5ECF6","aaxis":{"gridcolor":"white","linecolor":"white","ticks":""},"baxis":{"gridcolor":"white","linecolor":"white","ticks":""},"caxis":{"gridcolor":"white","linecolor":"white","ticks":""}},"coloraxis":{"colorbar":{"outlinewidth":0,"ticks":""}},"colorscale":{"sequential":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]],"sequentialminus":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]],"diverging":[[0,"#8e0152"],[0.1,"#c51b7d"],[0.2,"#de77ae"],[0.3,"#f1b6da"],[0.4,"#fde0ef"],[0.5,"#f7f7f7"],[0.6,"#e6f5d0"],[0.7,"#b8e186"],[0.8,"#7fbc41"],[0.9,"#4d9221"],[1,"#276419"]]},"xaxis":{"gridcolor":"white","linecolor":"white","ticks":"","title":{"standoff":15},"zerolinecolor":"white","automargin":true,"zerolinewidth":2},"yaxis":{"gridcolor":"white","linecolor":"white","ticks":"","title":{"standoff":15},"zerolinecolor":"white","automargin":true,"zerolinewidth":2},"scene":{"xaxis":{"backgroundcolor":"#E5ECF6","gridcolor":"white","linecolor":"white","showbackground":true,"ticks":"","zerolinecolor":"white","gridwidth":2},"yaxis":{"backgroundcolor":"#E5ECF6","gridcolor":"white","linecolor":"white","showbackground":true,"ticks":"","zerolinecolor":"white","gridwidth":2},"zaxis":{"backgroundcolor":"#E5ECF6","gridcolor":"white","linecolor":"white","showbackground":true,"ticks":"","zerolinecolor":"white","gridwidth":2}},"shapedefaults":{"line":{"color":"#2a3f5f"}},"annotationdefaults":{"arrowcolor":"#2a3f5f","arrowhead":0,"arrowwidth":1},"geo":{"bgcolor":"white","landcolor":"#E5ECF6","subunitcolor":"white","showland":true,"showlakes":true,"lakecolor":"white"},"title":{"x":0.05},"mapbox":{"style":"light"}}},"yaxis":{"autorange":"reversed"},"title":{"text":"Problematic users by issue (166 users)"},"xaxis":{"title":{"text":"Users"}}},                        {"responsive": true}                    )                };            </script>        </div></section>
+<section><h2>Problematic user list</h2><div class="table"><table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>UserID</th>
+      <th>UserState</th>
+      <th>RegistrationDate</th>
+      <th>succeeded</th>
+      <th>expired</th>
+      <th>pending</th>
+      <th>Issues</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>671303</td>
+      <td>Pending activation</td>
+      <td>2026-09-14 08:23</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>No register code</td>
+    </tr>
+    <tr>
+      <td>671302</td>
+      <td>Active</td>
+      <td>2026-09-14 08:21</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>No register code; Active without succeeded register code</td>
+    </tr>
+    <tr>
+      <td>671260</td>
+      <td>Pending activation</td>
+      <td>2026-09-14 00:40</td>
+      <td>0</td>
+      <td>5</td>
+      <td>1</td>
+      <td>5+ expired register codes</td>
+    </tr>
+    <tr>
+      <td>671254</td>
+      <td>Pending activation</td>
+      <td>2026-09-14 00:10</td>
+      <td>0</td>
+      <td>6</td>
+      <td>1</td>
+      <td>5+ expired register codes</td>
+    </tr>
+    <tr>
+      <td>671236</td>
+      <td>Pending activation</td>
+      <td>2026-09-13 23:17</td>
+      <td>0</td>
+      <td>6</td>
+      <td>1</td>
+      <td>5+ expired register codes</td>
+    </tr>
+    <tr>
+      <td>671144</td>
+      <td>Active</td>
+      <td>2026-09-13 19:11</td>
+      <td>1</td>
+      <td>9</td>
+      <td>0</td>
+      <td>5+ expired register codes</td>
+    </tr>
+    <tr>
+      <td>671075</td>
+      <td>Active</td>
+      <td>2026-09-13 16:30</td>
+      <td>0</td>
+      <td>2</td>
+      <td>1</td>
+      <td>Active without succeeded register code</td>
+    </tr>
+    <tr>
+      <td>671051</td>
+      <td>Active</td>
+      <td>2026-09-13 14:36</td>
+      <td>1</td>
+      <td>6</td>
+      <td>0</td>
+      <td>5+ expired register codes</td>
+    </tr>
+    <tr>
+      <td>670876</td>
+      <td>Active</td>
+      <td>2026-09-13 09:57</td>
+      <td>1</td>
+      <td>7</td>
+      <td>0</td>
+      <td>5+ expired register codes</td>
+    </tr>
+    <tr>
+      <td>670865</td>
+      <td>Pending activation</td>
+      <td>2026-09-13 09:36</td>
+      <td>0</td>
+      <td>5</td>
+      <td>1</td>
+      <td>5+ expired register codes</td>
+    </tr>
+    <tr>
+      <td>670863</td>
+      <td>Pending activation</td>
+      <td>2026-09-13 09:34</td>
+      <td>0</td>
+      <td>5</td>
+      <td>1</td>
+      <td>5+ expired register codes</td>
+    </tr>
+    <tr>
+      <td>670827</td>
+      <td>Pending activation</td>
+      <td>2026-09-13 07:34</td>
+      <td>0</td>
+      <td>5</td>
+      <td>1</td>
+      <td>5+ expired register codes</td>
+    </tr>
+    <tr>
+      <td>670735</td>
+      <td>Active</td>
+      <td>2026-09-12 23:40</td>
+      <td>0</td>
+      <td>0</td>
+      <td>1</td>
+      <td>Active without succeeded register code</td>
+    </tr>
+    <tr>
+      <td>670701</td>
+      <td>Active</td>
+      <td>2026-09-12 22:47</td>
+      <td>0</td>
+      <td>1</td>
+      <td>1</td>
+      <td>Active without succeeded register code</td>
+    </tr>
+    <tr>
+      <td>670677</td>
+      <td>Pending activation</td>
+      <td>2026-09-12 21:57</td>
+      <td>0</td>
+      <td>6</td>
+      <td>1</td>
+      <td>5+ expired register codes</td>
+    </tr>
+    <tr>
+      <td>670490</td>
+      <td>Pending activation</td>
+      <td>2026-09-12 16:48</td>
+      <td>0</td>
+      <td>8</td>
+      <td>1</td>
+      <td>5+ expired register codes</td>
+    </tr>
+    <tr>
+      <td>670334</td>
+      <td>Active</td>
+      <td>2026-09-12 11:45</td>
+      <td>1</td>
+      <td>6</td>
+      <td>0</td>
+      <td>5+ expired register codes</td>
+    </tr>
+    <tr>
+      <td>670287</td>
+      <td>Pending activation</td>
+      <td>2026-09-12 08:42</td>
+      <td>0</td>
+      <td>5</td>
+      <td>1</td>
+      <td>5+ expired register codes</td>
+    </tr>
+    <tr>
+      <td>670259</td>
+      <td>Pending activation</td>
+      <td>2026-09-12 06:15</td>
+      <td>0</td>
+      <td>6</td>
+      <td>1</td>
+      <td>5+ expired register codes</td>
+    </tr>
+    <tr>
+      <td>670176</td>
+      <td>Active</td>
+      <td>2026-09-11 22:19</td>
+      <td>1</td>
+      <td>12</td>
+      <td>0</td>
+      <td>5+ expired register codes</td>
+    </tr>
+    <tr>
+      <td>670170</td>
+      <td>Active</td>
+      <td>2026-09-11 22:11</td>
+      <td>0</td>
+      <td>2</td>
+      <td>1</td>
+      <td>Active without succeeded register code</td>
+    </tr>
+    <tr>
+      <td>670154</td>
+      <td>Pending activation</td>
+      <td>2026-09-11 21:32</td>
+      <td>0</td>
+      <td>5</td>
+      <td>1</td>
+      <td>5+ expired register codes</td>
+    </tr>
+    <tr>
+      <td>670150</td>
+      <td>Pending activation</td>
+      <td>2026-09-11 21:19</td>
+      <td>0</td>
+      <td>7</td>
+      <td>1</td>
+      <td>5+ expired register codes</td>
+    </tr>
+    <tr>
+      <td>670118</td>
+      <td>Pending activation</td>
+      <td>2026-09-11 19:48</td>
+      <td>0</td>
+      <td>5</td>
+      <td>1</td>
+      <td>5+ expired register codes</td>
+    </tr>
+    <tr>
+      <td>670107</td>
+      <td>Active</td>
+      <td>2026-09-11 19:10</td>
+      <td>1</td>
+      <td>11</td>
+      <td>0</td>
+      <td>5+ expired register codes</td>
+    </tr>
+    <tr>
+      <td>670026</td>
+      <td>Active</td>
+      <td>2026-09-11 17:01</td>
+      <td>0</td>
+      <td>0</td>
+      <td>1</td>
+      <td>Active without succeeded register code</td>
+    </tr>
+    <tr>
+      <td>670017</td>
+      <td>Pending activation</td>
+      <td>2026-09-11 16:48</td>
+      <td>0</td>
+      <td>7</td>
+      <td>1</td>
+      <td>5+ expired register codes</td>
+    </tr>
+    <tr>
+      <td>669895</td>
+      <td>Active</td>
+      <td>2026-09-11 11:02</td>
+      <td>0</td>
+      <td>0</td>
+      <td>1</td>
+      <td>Active without succeeded register code</td>
+    </tr>
+    <tr>
+      <td>669849</td>
+      <td>Pending activation</td>
+      <td>2026-09-11 08:07</td>
+      <td>0</td>
+      <td>5</td>
+      <td>1</td>
+      <td>5+ expired register codes</td>
+    </tr>
+    <tr>
+      <td>669846</td>
+      <td>Active</td>
+      <td>2026-09-11 08:00</td>
+      <td>0</td>
+      <td>1</td>
+      <td>1</td>
+      <td>Active without succeeded register code</td>
+    </tr>
+    <tr>
+      <td>669764</td>
+      <td>Pending activation</td>
+      <td>2026-09-11 01:50</td>
+      <td>0</td>
+      <td>5</td>
+      <td>1</td>
+      <td>5+ expired register codes</td>
+    </tr>
+    <tr>
+      <td>669680</td>
+      <td>Active</td>
+      <td>2026-09-10 23:19</td>
+      <td>0</td>
+      <td>1</td>
+      <td>1</td>
+      <td>Active without succeeded register code</td>
+    </tr>
+    <tr>
+      <td>669615</td>
+      <td>Pending activation</td>
+      <td>2026-09-10 22:16</td>
+      <td>0</td>
+      <td>8</td>
+      <td>1</td>
+      <td>5+ expired register codes</td>
+    </tr>
+    <tr>
+      <td>669478</td>
+      <td>Active</td>
+      <td>2026-09-10 18:43</td>
+      <td>0</td>
+      <td>0</td>
+      <td>1</td>
+      <td>Active without succeeded register code</td>
+    </tr>
+    <tr>
+      <td>669470</td>
+      <td>Active</td>
+      <td>2026-09-10 18:12</td>
+      <td>0</td>
+      <td>2</td>
+      <td>1</td>
+      <td>Active without succeeded register code</td>
+    </tr>
+    <tr>
+      <td>669357</td>
+      <td>Pending activation</td>
+      <td>2026-09-10 11:05</td>
+      <td>0</td>
+      <td>6</td>
+      <td>1</td>
+      <td>5+ expired register codes</td>
+    </tr>
+    <tr>
+      <td>669333</td>
+      <td>Active</td>
+      <td>2026-09-10 05:41</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>No register code; Active without succeeded register code</td>
+    </tr>
+    <tr>
+      <td>669271</td>
+      <td>Active</td>
+      <td>2026-09-09 19:30</td>
+      <td>0</td>
+      <td>1</td>
+      <td>1</td>
+      <td>Active without succeeded register code</td>
+    </tr>
+    <tr>
+      <td>669270</td>
+      <td>Active</td>
+      <td>2026-09-09 19:28</td>
+      <td>1</td>
+      <td>10</td>
+      <td>0</td>
+      <td>5+ expired register codes</td>
+    </tr>
+    <tr>
+      <td>669242</td>
+      <td>Active</td>
+      <td>2026-09-09 16:16</td>
+      <td>0</td>
+      <td>2</td>
+      <td>1</td>
+      <td>Active without succeeded register code</td>
+    </tr>
+    <tr>
+      <td>669241</td>
+      <td>Pending activation</td>
+      <td>2026-09-09 16:15</td>
+      <td>0</td>
+      <td>5</td>
+      <td>1</td>
+      <td>5+ expired register codes</td>
+    </tr>
+    <tr>
+      <td>669223</td>
+      <td>Pending activation</td>
+      <td>2026-09-09 15:34</td>
+      <td>0</td>
+      <td>5</td>
+      <td>1</td>
+      <td>5+ expired register codes</td>
+    </tr>
+    <tr>
+      <td>669198</td>
+      <td>Active</td>
+      <td>2026-09-09 14:28</td>
+      <td>0</td>
+      <td>0</td>
+      <td>1</td>
+      <td>Active without succeeded register code</td>
+    </tr>
+    <tr>
+      <td>669197</td>
+      <td>Active</td>
+      <td>2026-09-09 14:22</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>No register code; Active without succeeded register code</td>
+    </tr>
+    <tr>
+      <td>669195</td>
+      <td>Active</td>
+      <td>2026-09-09 14:20</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>No register code; Active without succeeded register code</td>
+    </tr>
+    <tr>
+      <td>669114</td>
+      <td>Active</td>
+      <td>2026-09-09 09:36</td>
+      <td>0</td>
+      <td>0</td>
+      <td>1</td>
+      <td>Active without succeeded register code</td>
+    </tr>
+    <tr>
+      <td>669010</td>
+      <td>Active</td>
+      <td>2026-09-08 19:32</td>
+      <td>1</td>
+      <td>5</td>
+      <td>0</td>
+      <td>5+ expired register codes</td>
+    </tr>
+    <tr>
+      <td>668929</td>
+      <td>Active</td>
+      <td>2026-09-08 15:28</td>
+      <td>1</td>
+      <td>14</td>
+      <td>0</td>
+      <td>5+ expired register codes</td>
+    </tr>
+    <tr>
+      <td>668924</td>
+      <td>Active</td>
+      <td>2026-09-08 15:01</td>
+      <td>1</td>
+      <td>8</td>
+      <td>0</td>
+      <td>5+ expired register codes</td>
+    </tr>
+    <tr>
+      <td>668923</td>
+      <td>Pending activation</td>
+      <td>2026-09-08 14:57</td>
+      <td>0</td>
+      <td>6</td>
+      <td>1</td>
+      <td>5+ expired register codes</td>
+    </tr>
+    <tr>
+      <td>668888</td>
+      <td>Active</td>
+      <td>2026-09-07 23:36</td>
+      <td>1</td>
+      <td>8</td>
+      <td>0</td>
+      <td>5+ expired register codes</td>
+    </tr>
+    <tr>
+      <td>668796</td>
+      <td>Active</td>
+      <td>2026-09-07 08:20</td>
+      <td>0</td>
+      <td>1</td>
+      <td>1</td>
+      <td>Active without succeeded register code</td>
+    </tr>
+    <tr>
+      <td>668701</td>
+      <td>Active</td>
+      <td>2026-09-06 17:56</td>
+      <td>0</td>
+      <td>0</td>
+      <td>1</td>
+      <td>Active without succeeded register code</td>
+    </tr>
+    <tr>
+      <td>668688</td>
+      <td>Active</td>
+      <td>2026-09-06 17:07</td>
+      <td>1</td>
+      <td>7</td>
+      <td>0</td>
+      <td>5+ expired register codes</td>
+    </tr>
+    <tr>
+      <td>668686</td>
+      <td>Pending activation</td>
+      <td>2026-09-06 17:01</td>
+      <td>0</td>
+      <td>5</td>
+      <td>1</td>
+      <td>5+ expired register codes</td>
+    </tr>
+    <tr>
+      <td>668641</td>
+      <td>Pending activation</td>
+      <td>2026-09-06 13:29</td>
+      <td>0</td>
+      <td>6</td>
+      <td>1</td>
+      <td>5+ expired register codes</td>
+    </tr>
+    <tr>
+      <td>668614</td>
+      <td>Active</td>
+      <td>2026-09-06 10:40</td>
+      <td>1</td>
+      <td>5</td>
+      <td>0</td>
+      <td>5+ expired register codes</td>
+    </tr>
+    <tr>
+      <td>668587</td>
+      <td>Pending activation</td>
+      <td>2026-09-06 09:04</td>
+      <td>0</td>
+      <td>12</td>
+      <td>1</td>
+      <td>5+ expired register codes</td>
+    </tr>
+    <tr>
+      <td>668492</td>
+      <td>Active</td>
+      <td>2026-09-05 17:29</td>
+      <td>1</td>
+      <td>7</td>
+      <td>0</td>
+      <td>5+ expired register codes</td>
+    </tr>
+    <tr>
+      <td>668479</td>
+      <td>Pending activation</td>
+      <td>2026-09-05 16:39</td>
+      <td>0</td>
+      <td>6</td>
+      <td>1</td>
+      <td>5+ expired register codes</td>
+    </tr>
+    <tr>
+      <td>668430</td>
+      <td>Active</td>
+      <td>2026-09-05 11:16</td>
+      <td>1</td>
+      <td>7</td>
+      <td>0</td>
+      <td>5+ expired register codes</td>
+    </tr>
+    <tr>
+      <td>668418</td>
+      <td>Pending activation</td>
+      <td>2026-09-05 09:55</td>
+      <td>0</td>
+      <td>5</td>
+      <td>1</td>
+      <td>5+ expired register codes</td>
+    </tr>
+    <tr>
+      <td>668343</td>
+      <td>Active</td>
+      <td>2026-09-04 22:22</td>
+      <td>1</td>
+      <td>5</td>
+      <td>0</td>
+      <td>5+ expired register codes</td>
+    </tr>
+    <tr>
+      <td>668294</td>
+      <td>Pending activation</td>
+      <td>2026-09-04 18:13</td>
+      <td>0</td>
+      <td>10</td>
+      <td>1</td>
+      <td>5+ expired register codes</td>
+    </tr>
+    <tr>
+      <td>668252</td>
+      <td>Pending activation</td>
+      <td>2026-09-04 14:33</td>
+      <td>0</td>
+      <td>9</td>
+      <td>1</td>
+      <td>5+ expired register codes</td>
+    </tr>
+    <tr>
+      <td>668232</td>
+      <td>Active</td>
+      <td>2026-09-04 13:02</td>
+      <td>0</td>
+      <td>1</td>
+      <td>1</td>
+      <td>Active without succeeded register code</td>
+    </tr>
+    <tr>
+      <td>668134</td>
+      <td>Active</td>
+      <td>2026-09-03 23:51</td>
+      <td>0</td>
+      <td>0</td>
+      <td>1</td>
+      <td>Active without succeeded register code</td>
+    </tr>
+    <tr>
+      <td>668087</td>
+      <td>Pending activation</td>
+      <td>2026-09-03 18:45</td>
+      <td>0</td>
+      <td>5</td>
+      <td>1</td>
+      <td>5+ expired register codes</td>
+    </tr>
+    <tr>
+      <td>668049</td>
+      <td>Pending activation</td>
+      <td>2026-09-03 15:57</td>
+      <td>0</td>
+      <td>6</td>
+      <td>1</td>
+      <td>5+ expired register codes</td>
+    </tr>
+    <tr>
+      <td>667972</td>
+      <td>Active</td>
+      <td>2026-09-03 12:50</td>
+      <td>0</td>
+      <td>5</td>
+      <td>1</td>
+      <td>Active without succeeded register code; 5+ expired register codes</td>
+    </tr>
+    <tr>
+      <td>667891</td>
+      <td>Pending activation</td>
+      <td>2026-09-03 09:26</td>
+      <td>0</td>
+      <td>7</td>
+      <td>1</td>
+      <td>5+ expired register codes</td>
+    </tr>
+    <tr>
+      <td>667852</td>
+      <td>Active</td>
+      <td>2026-09-03 05:11</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>No register code; Active without succeeded register code</td>
+    </tr>
+    <tr>
+      <td>667833</td>
+      <td>Pending activation</td>
+      <td>2026-09-03 00:46</td>
+      <td>0</td>
+      <td>8</td>
+      <td>1</td>
+      <td>5+ expired register codes</td>
+    </tr>
+    <tr>
+      <td>667829</td>
+      <td>Pending activation</td>
+      <td>2026-09-03 00:30</td>
+      <td>0</td>
+      <td>15</td>
+      <td>1</td>
+      <td>5+ expired register codes</td>
+    </tr>
+    <tr>
+      <td>667827</td>
+      <td>Active</td>
+      <td>2026-09-03 00:25</td>
+      <td>0</td>
+      <td>0</td>
+      <td>1</td>
+      <td>Active without succeeded register code</td>
+    </tr>
+    <tr>
+      <td>667781</td>
+      <td>Active</td>
+      <td>2026-09-02 21:05</td>
+      <td>0</td>
+      <td>3</td>
+      <td>1</td>
+      <td>Active without succeeded register code</td>
+    </tr>
+    <tr>
+      <td>667773</td>
+      <td>Active</td>
+      <td>2026-09-02 20:25</td>
+      <td>0</td>
+      <td>0</td>
+      <td>1</td>
+      <td>Active without succeeded register code</td>
+    </tr>
+    <tr>
+      <td>667670</td>
+      <td>Active</td>
+      <td>2026-09-02 16:37</td>
+      <td>0</td>
+      <td>1</td>
+      <td>1</td>
+      <td>Active without succeeded register code</td>
+    </tr>
+    <tr>
+      <td>667635</td>
+      <td>Pending activation</td>
+      <td>2026-09-02 14:22</td>
+      <td>0</td>
+      <td>6</td>
+      <td>1</td>
+      <td>5+ expired register codes</td>
+    </tr>
+    <tr>
+      <td>667563</td>
+      <td>Pending activation</td>
+      <td>2026-09-02 06:27</td>
+      <td>0</td>
+      <td>6</td>
+      <td>1</td>
+      <td>5+ expired register codes</td>
+    </tr>
+    <tr>
+      <td>667523</td>
+      <td>Active</td>
+      <td>2026-09-01 18:12</td>
+      <td>0</td>
+      <td>1</td>
+      <td>1</td>
+      <td>Active without succeeded register code</td>
+    </tr>
+    <tr>
+      <td>667520</td>
+      <td>Active</td>
+      <td>2026-09-01 17:39</td>
+      <td>0</td>
+      <td>0</td>
+      <td>1</td>
+      <td>Active without succeeded register code</td>
+    </tr>
+    <tr>
+      <td>667432</td>
+      <td>Active</td>
+      <td>2026-08-31 23:37</td>
+      <td>0</td>
+      <td>0</td>
+      <td>1</td>
+      <td>Active without succeeded register code</td>
+    </tr>
+    <tr>
+      <td>667398</td>
+      <td>Active</td>
+      <td>2026-08-31 16:53</td>
+      <td>1</td>
+      <td>29</td>
+      <td>0</td>
+      <td>5+ expired register codes</td>
+    </tr>
+    <tr>
+      <td>667395</td>
+      <td>Active</td>
+      <td>2026-08-31 16:34</td>
+      <td>1</td>
+      <td>7</td>
+      <td>0</td>
+      <td>5+ expired register codes</td>
+    </tr>
+    <tr>
+      <td>667389</td>
+      <td>Active</td>
+      <td>2026-08-31 15:43</td>
+      <td>1</td>
+      <td>10</td>
+      <td>0</td>
+      <td>5+ expired register codes</td>
+    </tr>
+    <tr>
+      <td>667334</td>
+      <td>Active</td>
+      <td>2026-08-31 04:01</td>
+      <td>1</td>
+      <td>5</td>
+      <td>0</td>
+      <td>5+ expired register codes</td>
+    </tr>
+    <tr>
+      <td>667244</td>
+      <td>Active</td>
+      <td>2026-08-30 11:23</td>
+      <td>0</td>
+      <td>7</td>
+      <td>1</td>
+      <td>Active without succeeded register code; 5+ expired register codes</td>
+    </tr>
+    <tr>
+      <td>667231</td>
+      <td>Active</td>
+      <td>2026-08-30 09:26</td>
+      <td>1</td>
+      <td>5</td>
+      <td>0</td>
+      <td>5+ expired register codes</td>
+    </tr>
+    <tr>
+      <td>667227</td>
+      <td>Pending activation</td>
+      <td>2026-08-30 07:51</td>
+      <td>0</td>
+      <td>5</td>
+      <td>1</td>
+      <td>5+ expired register codes</td>
+    </tr>
+    <tr>
+      <td>667188</td>
+      <td>Active</td>
+      <td>2026-08-29 21:56</td>
+      <td>0</td>
+      <td>1</td>
+      <td>1</td>
+      <td>Active without succeeded register code</td>
+    </tr>
+    <tr>
+      <td>667152</td>
+      <td>Active</td>
+      <td>2026-08-29 12:49</td>
+      <td>0</td>
+      <td>2</td>
+      <td>1</td>
+      <td>Active without succeeded register code</td>
+    </tr>
+    <tr>
+      <td>667151</td>
+      <td>Active</td>
+      <td>2026-08-29 12:28</td>
+      <td>0</td>
+      <td>1</td>
+      <td>1</td>
+      <td>Active without succeeded register code</td>
+    </tr>
+    <tr>
+      <td>667150</td>
+      <td>Active</td>
+      <td>2026-08-29 12:18</td>
+      <td>1</td>
+      <td>11</td>
+      <td>0</td>
+      <td>5+ expired register codes</td>
+    </tr>
+    <tr>
+      <td>667032</td>
+      <td>Active</td>
+      <td>2026-08-28 09:05</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>No register code; Active without succeeded register code</td>
+    </tr>
+    <tr>
+      <td>666954</td>
+      <td>Active</td>
+      <td>2026-08-27 09:18</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>No register code; Active without succeeded register code</td>
+    </tr>
+    <tr>
+      <td>666944</td>
+      <td>Active</td>
+      <td>2026-08-27 04:04</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>No register code; Active without succeeded register code</td>
+    </tr>
+    <tr>
+      <td>666925</td>
+      <td>Pending activation</td>
+      <td>2026-08-26 22:59</td>
+      <td>0</td>
+      <td>0</td>
+      <td>1</td>
+      <td>Pending user with succeeded reset code</td>
+    </tr>
+    <tr>
+      <td>666920</td>
+      <td>Active</td>
+      <td>2026-08-26 22:41</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>No register code; Active without succeeded register code</td>
+    </tr>
+    <tr>
+      <td>666900</td>
+      <td>Active</td>
+      <td>2026-08-26 18:44</td>
+      <td>0</td>
+      <td>0</td>
+      <td>1</td>
+      <td>Active without succeeded register code</td>
+    </tr>
+    <tr>
+      <td>666872</td>
+      <td>Active</td>
+      <td>2026-08-26 14:52</td>
+      <td>0</td>
+      <td>0</td>
+      <td>1</td>
+      <td>Active without succeeded register code</td>
+    </tr>
+    <tr>
+      <td>666826</td>
+      <td>Active</td>
+      <td>2026-08-26 08:53</td>
+      <td>0</td>
+      <td>0</td>
+      <td>1</td>
+      <td>Active without succeeded register code</td>
+    </tr>
+    <tr>
+      <td>666726</td>
+      <td>Pending activation</td>
+      <td>2026-08-25 06:40</td>
+      <td>0</td>
+      <td>7</td>
+      <td>1</td>
+      <td>5+ expired register codes</td>
+    </tr>
+    <tr>
+      <td>666723</td>
+      <td>Pending activation</td>
+      <td>2026-08-25 06:13</td>
+      <td>0</td>
+      <td>7</td>
+      <td>1</td>
+      <td>5+ expired register codes</td>
+    </tr>
+    <tr>
+      <td>666716</td>
+      <td>Pending activation</td>
+      <td>2026-08-25 02:28</td>
+      <td>0</td>
+      <td>0</td>
+      <td>1</td>
+      <td>Pending user with succeeded reset code</td>
+    </tr>
+    <tr>
+      <td>666710</td>
+      <td>Active</td>
+      <td>2026-08-24 22:54</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>No register code; Active without succeeded register code</td>
+    </tr>
+    <tr>
+      <td>666709</td>
+      <td>Pending activation</td>
+      <td>2026-08-24 22:51</td>
+      <td>0</td>
+      <td>12</td>
+      <td>1</td>
+      <td>5+ expired register codes</td>
+    </tr>
+    <tr>
+      <td>666698</td>
+      <td>Active</td>
+      <td>2026-08-24 20:56</td>
+      <td>1</td>
+      <td>6</td>
+      <td>0</td>
+      <td>5+ expired register codes</td>
+    </tr>
+    <tr>
+      <td>666679</td>
+      <td>Pending activation</td>
+      <td>2026-08-24 16:48</td>
+      <td>0</td>
+      <td>12</td>
+      <td>1</td>
+      <td>5+ expired register codes</td>
+    </tr>
+    <tr>
+      <td>666625</td>
+      <td>Active</td>
+      <td>2026-08-24 00:11</td>
+      <td>0</td>
+      <td>41</td>
+      <td>1</td>
+      <td>Active without succeeded register code; 5+ expired register codes</td>
+    </tr>
+    <tr>
+      <td>666622</td>
+      <td>Active</td>
+      <td>2026-08-24 00:00</td>
+      <td>1</td>
+      <td>26</td>
+      <td>0</td>
+      <td>5+ expired register codes</td>
+    </tr>
+    <tr>
+      <td>666560</td>
+      <td>Active</td>
+      <td>2026-08-23 15:53</td>
+      <td>0</td>
+      <td>0</td>
+      <td>1</td>
+      <td>Active without succeeded register code</td>
+    </tr>
+    <tr>
+      <td>666541</td>
+      <td>Pending activation</td>
+      <td>2026-08-23 11:32</td>
+      <td>0</td>
+      <td>8</td>
+      <td>1</td>
+      <td>5+ expired register codes</td>
+    </tr>
+    <tr>
+      <td>666533</td>
+      <td>Active</td>
+      <td>2026-08-23 10:05</td>
+      <td>0</td>
+      <td>1</td>
+      <td>1</td>
+      <td>Active without succeeded register code</td>
+    </tr>
+    <tr>
+      <td>666505</td>
+      <td>Active</td>
+      <td>2026-08-22 23:15</td>
+      <td>1</td>
+      <td>5</td>
+      <td>0</td>
+      <td>5+ expired register codes</td>
+    </tr>
+    <tr>
+      <td>666480</td>
+      <td>Active</td>
+      <td>2026-08-22 17:50</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>No register code; Active without succeeded register code</td>
+    </tr>
+    <tr>
+      <td>666478</td>
+      <td>Active</td>
+      <td>2026-08-22 17:33</td>
+      <td>1</td>
+      <td>7</td>
+      <td>0</td>
+      <td>5+ expired register codes</td>
+    </tr>
+    <tr>
+      <td>666425</td>
+      <td>Pending activation</td>
+      <td>2026-08-22 01:29</td>
+      <td>0</td>
+      <td>5</td>
+      <td>1</td>
+      <td>5+ expired register codes</td>
+    </tr>
+    <tr>
+      <td>666422</td>
+      <td>Active</td>
+      <td>2026-08-22 00:49</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>No register code; Active without succeeded register code</td>
+    </tr>
+    <tr>
+      <td>666407</td>
+      <td>Active</td>
+      <td>2026-08-21 22:11</td>
+      <td>0</td>
+      <td>6</td>
+      <td>1</td>
+      <td>Active without succeeded register code; 5+ expired register codes</td>
+    </tr>
+    <tr>
+      <td>666394</td>
+      <td>Active</td>
+      <td>2026-08-21 20:58</td>
+      <td>0</td>
+      <td>0</td>
+      <td>1</td>
+      <td>Active without succeeded register code</td>
+    </tr>
+    <tr>
+      <td>666388</td>
+      <td>Active</td>
+      <td>2026-08-21 20:18</td>
+      <td>1</td>
+      <td>6</td>
+      <td>0</td>
+      <td>5+ expired register codes</td>
+    </tr>
+    <tr>
+      <td>666317</td>
+      <td>Active</td>
+      <td>2026-08-21 01:10</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>No register code; Active without succeeded register code</td>
+    </tr>
+    <tr>
+      <td>666292</td>
+      <td>Active</td>
+      <td>2026-08-20 19:28</td>
+      <td>0</td>
+      <td>8</td>
+      <td>1</td>
+      <td>Active without succeeded register code; 5+ expired register codes</td>
+    </tr>
+    <tr>
+      <td>666256</td>
+      <td>Active</td>
+      <td>2026-08-20 14:48</td>
+      <td>0</td>
+      <td>0</td>
+      <td>1</td>
+      <td>Active without succeeded register code</td>
+    </tr>
+    <tr>
+      <td>666164</td>
+      <td>Active</td>
+      <td>2026-08-19 23:24</td>
+      <td>0</td>
+      <td>1</td>
+      <td>1</td>
+      <td>Active without succeeded register code</td>
+    </tr>
+    <tr>
+      <td>666130</td>
+      <td>Pending activation</td>
+      <td>2026-08-19 16:39</td>
+      <td>0</td>
+      <td>10</td>
+      <td>1</td>
+      <td>5+ expired register codes</td>
+    </tr>
+    <tr>
+      <td>665772</td>
+      <td>Active</td>
+      <td>2026-08-18 20:38</td>
+      <td>0</td>
+      <td>0</td>
+      <td>1</td>
+      <td>Active without succeeded register code</td>
+    </tr>
+    <tr>
+      <td>665738</td>
+      <td>Active</td>
+      <td>2026-08-18 14:51</td>
+      <td>0</td>
+      <td>3</td>
+      <td>1</td>
+      <td>Active without succeeded register code</td>
+    </tr>
+    <tr>
+      <td>665590</td>
+      <td>Active</td>
+      <td>2026-08-18 12:09</td>
+      <td>1</td>
+      <td>6</td>
+      <td>0</td>
+      <td>5+ expired register codes</td>
+    </tr>
+    <tr>
+      <td>665588</td>
+      <td>Active</td>
+      <td>2026-08-18 11:34</td>
+      <td>0</td>
+      <td>2</td>
+      <td>1</td>
+      <td>Active without succeeded register code</td>
+    </tr>
+    <tr>
+      <td>665580</td>
+      <td>Active</td>
+      <td>2026-08-18 10:37</td>
+      <td>0</td>
+      <td>0</td>
+      <td>1</td>
+      <td>Active without succeeded register code</td>
+    </tr>
+    <tr>
+      <td>665548</td>
+      <td>Pending activation</td>
+      <td>2026-08-17 22:17</td>
+      <td>0</td>
+      <td>6</td>
+      <td>1</td>
+      <td>5+ expired register codes</td>
+    </tr>
+    <tr>
+      <td>665513</td>
+      <td>Pending activation</td>
+      <td>2026-08-17 19:19</td>
+      <td>0</td>
+      <td>6</td>
+      <td>1</td>
+      <td>5+ expired register codes</td>
+    </tr>
+    <tr>
+      <td>665496</td>
+      <td>Active</td>
+      <td>2026-08-17 17:44</td>
+      <td>0</td>
+      <td>0</td>
+      <td>1</td>
+      <td>Active without succeeded register code</td>
+    </tr>
+    <tr>
+      <td>665472</td>
+      <td>Pending activation</td>
+      <td>2026-08-17 16:33</td>
+      <td>0</td>
+      <td>11</td>
+      <td>1</td>
+      <td>5+ expired register codes</td>
+    </tr>
+    <tr>
+      <td>665463</td>
+      <td>Active</td>
+      <td>2026-08-17 16:15</td>
+      <td>0</td>
+      <td>1</td>
+      <td>1</td>
+      <td>Active without succeeded register code</td>
+    </tr>
+    <tr>
+      <td>665461</td>
+      <td>Pending activation</td>
+      <td>2026-08-17 16:07</td>
+      <td>0</td>
+      <td>22</td>
+      <td>1</td>
+      <td>5+ expired register codes</td>
+    </tr>
+    <tr>
+      <td>665425</td>
+      <td>Active</td>
+      <td>2026-08-17 14:09</td>
+      <td>1</td>
+      <td>9</td>
+      <td>0</td>
+      <td>5+ expired register codes</td>
+    </tr>
+    <tr>
+      <td>665339</td>
+      <td>Active</td>
+      <td>2026-08-17 12:15</td>
+      <td>0</td>
+      <td>0</td>
+      <td>1</td>
+      <td>Active without succeeded register code</td>
+    </tr>
+    <tr>
+      <td>665245</td>
+      <td>Pending activation</td>
+      <td>2026-08-17 08:09</td>
+      <td>0</td>
+      <td>12</td>
+      <td>1</td>
+      <td>5+ expired register codes</td>
+    </tr>
+    <tr>
+      <td>665225</td>
+      <td>Active</td>
+      <td>2026-08-17 01:19</td>
+      <td>0</td>
+      <td>2</td>
+      <td>1</td>
+      <td>Active without succeeded register code</td>
+    </tr>
+    <tr>
+      <td>665205</td>
+      <td>Active</td>
+      <td>2026-08-17 00:14</td>
+      <td>0</td>
+      <td>0</td>
+      <td>1</td>
+      <td>Active without succeeded register code</td>
+    </tr>
+    <tr>
+      <td>665174</td>
+      <td>Pending activation</td>
+      <td>2026-08-16 23:09</td>
+      <td>0</td>
+      <td>8</td>
+      <td>1</td>
+      <td>5+ expired register codes</td>
+    </tr>
+    <tr>
+      <td>665150</td>
+      <td>Active</td>
+      <td>2026-08-16 21:51</td>
+      <td>0</td>
+      <td>0</td>
+      <td>1</td>
+      <td>Active without succeeded register code</td>
+    </tr>
+    <tr>
+      <td>665135</td>
+      <td>Active</td>
+      <td>2026-08-16 20:19</td>
+      <td>0</td>
+      <td>0</td>
+      <td>1</td>
+      <td>Active without succeeded register code</td>
+    </tr>
+    <tr>
+      <td>665115</td>
+      <td>Pending activation</td>
+      <td>2026-08-16 18:39</td>
+      <td>0</td>
+      <td>5</td>
+      <td>1</td>
+      <td>5+ expired register codes</td>
+    </tr>
+    <tr>
+      <td>665014</td>
+      <td>Pending activation</td>
+      <td>2026-08-16 16:36</td>
+      <td>0</td>
+      <td>10</td>
+      <td>1</td>
+      <td>5+ expired register codes</td>
+    </tr>
+    <tr>
+      <td>665012</td>
+      <td>Pending activation</td>
+      <td>2026-08-16 16:32</td>
+      <td>0</td>
+      <td>8</td>
+      <td>1</td>
+      <td>5+ expired register codes</td>
+    </tr>
+    <tr>
+      <td>664970</td>
+      <td>Pending activation</td>
+      <td>2026-08-16 15:45</td>
+      <td>0</td>
+      <td>5</td>
+      <td>1</td>
+      <td>5+ expired register codes</td>
+    </tr>
+    <tr>
+      <td>664898</td>
+      <td>Active</td>
+      <td>2026-08-16 13:38</td>
+      <td>0</td>
+      <td>5</td>
+      <td>1</td>
+      <td>Active without succeeded register code; 5+ expired register codes</td>
+    </tr>
+    <tr>
+      <td>664779</td>
+      <td>Active</td>
+      <td>2026-08-16 11:26</td>
+      <td>0</td>
+      <td>7</td>
+      <td>1</td>
+      <td>Active without succeeded register code; 5+ expired register codes</td>
+    </tr>
+    <tr>
+      <td>664682</td>
+      <td>Active</td>
+      <td>2026-08-16 10:08</td>
+      <td>0</td>
+      <td>0</td>
+      <td>1</td>
+      <td>Active without succeeded register code</td>
+    </tr>
+    <tr>
+      <td>664679</td>
+      <td>Active</td>
+      <td>2026-08-16 10:04</td>
+      <td>0</td>
+      <td>1</td>
+      <td>1</td>
+      <td>Active without succeeded register code</td>
+    </tr>
+    <tr>
+      <td>664671</td>
+      <td>Active</td>
+      <td>2026-08-16 10:00</td>
+      <td>0</td>
+      <td>3</td>
+      <td>1</td>
+      <td>Active without succeeded register code</td>
+    </tr>
+    <tr>
+      <td>664542</td>
+      <td>Active</td>
+      <td>2026-08-16 02:13</td>
+      <td>0</td>
+      <td>0</td>
+      <td>1</td>
+      <td>Active without succeeded register code</td>
+    </tr>
+    <tr>
+      <td>664538</td>
+      <td>Active</td>
+      <td>2026-08-16 02:02</td>
+      <td>0</td>
+      <td>0</td>
+      <td>1</td>
+      <td>Active without succeeded register code</td>
+    </tr>
+    <tr>
+      <td>664537</td>
+      <td>Active</td>
+      <td>2026-08-16 02:00</td>
+      <td>0</td>
+      <td>0</td>
+      <td>1</td>
+      <td>Active without succeeded register code</td>
+    </tr>
+    <tr>
+      <td>664536</td>
+      <td>Active</td>
+      <td>2026-08-16 01:59</td>
+      <td>0</td>
+      <td>0</td>
+      <td>1</td>
+      <td>Active without succeeded register code</td>
+    </tr>
+    <tr>
+      <td>664535</td>
+      <td>Active</td>
+      <td>2026-08-16 01:54</td>
+      <td>0</td>
+      <td>0</td>
+      <td>1</td>
+      <td>Active without succeeded register code</td>
+    </tr>
+    <tr>
+      <td>664534</td>
+      <td>Active</td>
+      <td>2026-08-16 01:54</td>
+      <td>0</td>
+      <td>0</td>
+      <td>1</td>
+      <td>Active without succeeded register code</td>
+    </tr>
+    <tr>
+      <td>664532</td>
+      <td>Active</td>
+      <td>2026-08-16 01:52</td>
+      <td>0</td>
+      <td>0</td>
+      <td>1</td>
+      <td>Active without succeeded register code</td>
+    </tr>
+    <tr>
+      <td>664531</td>
+      <td>Active</td>
+      <td>2026-08-16 01:45</td>
+      <td>0</td>
+      <td>0</td>
+      <td>1</td>
+      <td>Active without succeeded register code</td>
+    </tr>
+    <tr>
+      <td>664528</td>
+      <td>Active</td>
+      <td>2026-08-16 01:31</td>
+      <td>0</td>
+      <td>0</td>
+      <td>1</td>
+      <td>Active without succeeded register code</td>
+    </tr>
+    <tr>
+      <td>664527</td>
+      <td>Active</td>
+      <td>2026-08-16 01:29</td>
+      <td>0</td>
+      <td>0</td>
+      <td>1</td>
+      <td>Active without succeeded register code</td>
+    </tr>
+    <tr>
+      <td>664433</td>
+      <td>Pending activation</td>
+      <td>2026-08-15 20:53</td>
+      <td>0</td>
+      <td>8</td>
+      <td>1</td>
+      <td>5+ expired register codes</td>
+    </tr>
+  </tbody>
+</table></div></section>
+</body></html>
