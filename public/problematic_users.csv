@@ -1,0 +1,167 @@
+UserID,UserState,RegistrationDate,succeeded,expired,pending,Issues
+671303,Pending activation,2026-09-14 08:23:07,0,0,0,No register code
+671302,Active,2026-09-14 08:21:56,0,0,0,No register code; Active without succeeded register code
+671260,Pending activation,2026-09-14 00:40:46,0,5,1,5+ expired register codes
+671254,Pending activation,2026-09-14 00:10:37,0,6,1,5+ expired register codes
+671236,Pending activation,2026-09-13 23:17:57,0,6,1,5+ expired register codes
+671144,Active,2026-09-13 19:11:07,1,9,0,5+ expired register codes
+671075,Active,2026-09-13 16:30:47,0,2,1,Active without succeeded register code
+671051,Active,2026-09-13 14:36:03,1,6,0,5+ expired register codes
+670876,Active,2026-09-13 09:57:59,1,7,0,5+ expired register codes
+670865,Pending activation,2026-09-13 09:36:12,0,5,1,5+ expired register codes
+670863,Pending activation,2026-09-13 09:34:30,0,5,1,5+ expired register codes
+670827,Pending activation,2026-09-13 07:34:50,0,5,1,5+ expired register codes
+670735,Active,2026-09-12 23:40:24,0,0,1,Active without succeeded register code
+670701,Active,2026-09-12 22:47:56,0,1,1,Active without succeeded register code
+670677,Pending activation,2026-09-12 21:57:40,0,6,1,5+ expired register codes
+670490,Pending activation,2026-09-12 16:48:12,0,8,1,5+ expired register codes
+670334,Active,2026-09-12 11:45:12,1,6,0,5+ expired register codes
+670287,Pending activation,2026-09-12 08:42:02,0,5,1,5+ expired register codes
+670259,Pending activation,2026-09-12 06:15:46,0,6,1,5+ expired register codes
+670176,Active,2026-09-11 22:19:22,1,12,0,5+ expired register codes
+670170,Active,2026-09-11 22:11:01,0,2,1,Active without succeeded register code
+670154,Pending activation,2026-09-11 21:32:14,0,5,1,5+ expired register codes
+670150,Pending activation,2026-09-11 21:19:02,0,7,1,5+ expired register codes
+670118,Pending activation,2026-09-11 19:48:41,0,5,1,5+ expired register codes
+670107,Active,2026-09-11 19:10:10,1,11,0,5+ expired register codes
+670026,Active,2026-09-11 17:01:55,0,0,1,Active without succeeded register code
+670017,Pending activation,2026-09-11 16:48:26,0,7,1,5+ expired register codes
+669895,Active,2026-09-11 11:02:12,0,0,1,Active without succeeded register code
+669849,Pending activation,2026-09-11 08:07:58,0,5,1,5+ expired register codes
+669846,Active,2026-09-11 08:00:37,0,1,1,Active without succeeded register code
+669764,Pending activation,2026-09-11 01:50:00,0,5,1,5+ expired register codes
+669680,Active,2026-09-10 23:19:42,0,1,1,Active without succeeded register code
+669615,Pending activation,2026-09-10 22:16:45,0,8,1,5+ expired register codes
+669478,Active,2026-09-10 18:43:44,0,0,1,Active without succeeded register code
+669470,Active,2026-09-10 18:12:11,0,2,1,Active without succeeded register code
+669357,Pending activation,2026-09-10 11:05:58,0,6,1,5+ expired register codes
+669333,Active,2026-09-10 05:41:53,0,0,0,No register code; Active without succeeded register code
+669271,Active,2026-09-09 19:30:28,0,1,1,Active without succeeded register code
+669270,Active,2026-09-09 19:28:41,1,10,0,5+ expired register codes
+669242,Active,2026-09-09 16:16:57,0,2,1,Active without succeeded register code
+669241,Pending activation,2026-09-09 16:15:41,0,5,1,5+ expired register codes
+669223,Pending activation,2026-09-09 15:34:56,0,5,1,5+ expired register codes
+669198,Active,2026-09-09 14:28:55,0,0,1,Active without succeeded register code
+669197,Active,2026-09-09 14:22:16,0,0,0,No register code; Active without succeeded register code
+669195,Active,2026-09-09 14:20:34,0,0,0,No register code; Active without succeeded register code
+669114,Active,2026-09-09 09:36:29,0,0,1,Active without succeeded register code
+669010,Active,2026-09-08 19:32:52,1,5,0,5+ expired register codes
+668929,Active,2026-09-08 15:28:42,1,14,0,5+ expired register codes
+668924,Active,2026-09-08 15:01:57,1,8,0,5+ expired register codes
+668923,Pending activation,2026-09-08 14:57:50,0,6,1,5+ expired register codes
+668888,Active,2026-09-07 23:36:05,1,8,0,5+ expired register codes
+668796,Active,2026-09-07 08:20:22,0,1,1,Active without succeeded register code
+668701,Active,2026-09-06 17:56:48,0,0,1,Active without succeeded register code
+668688,Active,2026-09-06 17:07:54,1,7,0,5+ expired register codes
+668686,Pending activation,2026-09-06 17:01:54,0,5,1,5+ expired register codes
+668641,Pending activation,2026-09-06 13:29:06,0,6,1,5+ expired register codes
+668614,Active,2026-09-06 10:40:32,1,5,0,5+ expired register codes
+668587,Pending activation,2026-09-06 09:04:11,0,12,1,5+ expired register codes
+668492,Active,2026-09-05 17:29:23,1,7,0,5+ expired register codes
+668479,Pending activation,2026-09-05 16:39:28,0,6,1,5+ expired register codes
+668430,Active,2026-09-05 11:16:01,1,7,0,5+ expired register codes
+668418,Pending activation,2026-09-05 09:55:03,0,5,1,5+ expired register codes
+668343,Active,2026-09-04 22:22:52,1,5,0,5+ expired register codes
+668294,Pending activation,2026-09-04 18:13:05,0,10,1,5+ expired register codes
+668252,Pending activation,2026-09-04 14:33:45,0,9,1,5+ expired register codes
+668232,Active,2026-09-04 13:02:51,0,1,1,Active without succeeded register code
+668134,Active,2026-09-03 23:51:34,0,0,1,Active without succeeded register code
+668087,Pending activation,2026-09-03 18:45:21,0,5,1,5+ expired register codes
+668049,Pending activation,2026-09-03 15:57:46,0,6,1,5+ expired register codes
+667972,Active,2026-09-03 12:50:04,0,5,1,Active without succeeded register code; 5+ expired register codes
+667891,Pending activation,2026-09-03 09:26:16,0,7,1,5+ expired register codes
+667852,Active,2026-09-03 05:11:35,0,0,0,No register code; Active without succeeded register code
+667833,Pending activation,2026-09-03 00:46:13,0,8,1,5+ expired register codes
+667829,Pending activation,2026-09-03 00:30:07,0,15,1,5+ expired register codes
+667827,Active,2026-09-03 00:25:04,0,0,1,Active without succeeded register code
+667781,Active,2026-09-02 21:05:01,0,3,1,Active without succeeded register code
+667773,Active,2026-09-02 20:25:50,0,0,1,Active without succeeded register code
+667670,Active,2026-09-02 16:37:33,0,1,1,Active without succeeded register code
+667635,Pending activation,2026-09-02 14:22:57,0,6,1,5+ expired register codes
+667563,Pending activation,2026-09-02 06:27:29,0,6,1,5+ expired register codes
+667523,Active,2026-09-01 18:12:32,0,1,1,Active without succeeded register code
+667520,Active,2026-09-01 17:39:35,0,0,1,Active without succeeded register code
+667432,Active,2026-08-31 23:37:30,0,0,1,Active without succeeded register code
+667398,Active,2026-08-31 16:53:26,1,29,0,5+ expired register codes
+667395,Active,2026-08-31 16:34:04,1,7,0,5+ expired register codes
+667389,Active,2026-08-31 15:43:23,1,10,0,5+ expired register codes
+667334,Active,2026-08-31 04:01:13,1,5,0,5+ expired register codes
+667244,Active,2026-08-30 11:23:08,0,7,1,Active without succeeded register code; 5+ expired register codes
+667231,Active,2026-08-30 09:26:56,1,5,0,5+ expired register codes
+667227,Pending activation,2026-08-30 07:51:06,0,5,1,5+ expired register codes
+667188,Active,2026-08-29 21:56:09,0,1,1,Active without succeeded register code
+667152,Active,2026-08-29 12:49:35,0,2,1,Active without succeeded register code
+667151,Active,2026-08-29 12:28:50,0,1,1,Active without succeeded register code
+667150,Active,2026-08-29 12:18:51,1,11,0,5+ expired register codes
+667032,Active,2026-08-28 09:05:34,0,0,0,No register code; Active without succeeded register code
+666954,Active,2026-08-27 09:18:12,0,0,0,No register code; Active without succeeded register code
+666944,Active,2026-08-27 04:04:16,0,0,0,No register code; Active without succeeded register code
+666925,Pending activation,2026-08-26 22:59:08,0,0,1,Pending user with succeeded reset code
+666920,Active,2026-08-26 22:41:08,0,0,0,No register code; Active without succeeded register code
+666900,Active,2026-08-26 18:44:59,0,0,1,Active without succeeded register code
+666872,Active,2026-08-26 14:52:48,0,0,1,Active without succeeded register code
+666826,Active,2026-08-26 08:53:12,0,0,1,Active without succeeded register code
+666726,Pending activation,2026-08-25 06:40:44,0,7,1,5+ expired register codes
+666723,Pending activation,2026-08-25 06:13:39,0,7,1,5+ expired register codes
+666716,Pending activation,2026-08-25 02:28:52,0,0,1,Pending user with succeeded reset code
+666710,Active,2026-08-24 22:54:28,0,0,0,No register code; Active without succeeded register code
+666709,Pending activation,2026-08-24 22:51:50,0,12,1,5+ expired register codes
+666698,Active,2026-08-24 20:56:37,1,6,0,5+ expired register codes
+666679,Pending activation,2026-08-24 16:48:47,0,12,1,5+ expired register codes
+666625,Active,2026-08-24 00:11:16,0,41,1,Active without succeeded register code; 5+ expired register codes
+666622,Active,2026-08-24 00:00:34,1,26,0,5+ expired register codes
+666560,Active,2026-08-23 15:53:01,0,0,1,Active without succeeded register code
+666541,Pending activation,2026-08-23 11:32:09,0,8,1,5+ expired register codes
+666533,Active,2026-08-23 10:05:58,0,1,1,Active without succeeded register code
+666505,Active,2026-08-22 23:15:34,1,5,0,5+ expired register codes
+666480,Active,2026-08-22 17:50:25,0,0,0,No register code; Active without succeeded register code
+666478,Active,2026-08-22 17:33:24,1,7,0,5+ expired register codes
+666425,Pending activation,2026-08-22 01:29:33,0,5,1,5+ expired register codes
+666422,Active,2026-08-22 00:49:21,0,0,0,No register code; Active without succeeded register code
+666407,Active,2026-08-21 22:11:39,0,6,1,Active without succeeded register code; 5+ expired register codes
+666394,Active,2026-08-21 20:58:24,0,0,1,Active without succeeded register code
+666388,Active,2026-08-21 20:18:46,1,6,0,5+ expired register codes
+666317,Active,2026-08-21 01:10:44,0,0,0,No register code; Active without succeeded register code
+666292,Active,2026-08-20 19:28:55,0,8,1,Active without succeeded register code; 5+ expired register codes
+666256,Active,2026-08-20 14:48:20,0,0,1,Active without succeeded register code
+666164,Active,2026-08-19 23:24:45,0,1,1,Active without succeeded register code
+666130,Pending activation,2026-08-19 16:39:50,0,10,1,5+ expired register codes
+665772,Active,2026-08-18 20:38:07,0,0,1,Active without succeeded register code
+665738,Active,2026-08-18 14:51:24,0,3,1,Active without succeeded register code
+665590,Active,2026-08-18 12:09:47,1,6,0,5+ expired register codes
+665588,Active,2026-08-18 11:34:15,0,2,1,Active without succeeded register code
+665580,Active,2026-08-18 10:37:44,0,0,1,Active without succeeded register code
+665548,Pending activation,2026-08-17 22:17:25,0,6,1,5+ expired register codes
+665513,Pending activation,2026-08-17 19:19:08,0,6,1,5+ expired register codes
+665496,Active,2026-08-17 17:44:49,0,0,1,Active without succeeded register code
+665472,Pending activation,2026-08-17 16:33:35,0,11,1,5+ expired register codes
+665463,Active,2026-08-17 16:15:35,0,1,1,Active without succeeded register code
+665461,Pending activation,2026-08-17 16:07:28,0,22,1,5+ expired register codes
+665425,Active,2026-08-17 14:09:30,1,9,0,5+ expired register codes
+665339,Active,2026-08-17 12:15:13,0,0,1,Active without succeeded register code
+665245,Pending activation,2026-08-17 08:09:52,0,12,1,5+ expired register codes
+665225,Active,2026-08-17 01:19:14,0,2,1,Active without succeeded register code
+665205,Active,2026-08-17 00:14:28,0,0,1,Active without succeeded register code
+665174,Pending activation,2026-08-16 23:09:08,0,8,1,5+ expired register codes
+665150,Active,2026-08-16 21:51:58,0,0,1,Active without succeeded register code
+665135,Active,2026-08-16 20:19:55,0,0,1,Active without succeeded register code
+665115,Pending activation,2026-08-16 18:39:18,0,5,1,5+ expired register codes
+665014,Pending activation,2026-08-16 16:36:50,0,10,1,5+ expired register codes
+665012,Pending activation,2026-08-16 16:32:28,0,8,1,5+ expired register codes
+664970,Pending activation,2026-08-16 15:45:27,0,5,1,5+ expired register codes
+664898,Active,2026-08-16 13:38:40,0,5,1,Active without succeeded register code; 5+ expired register codes
+664779,Active,2026-08-16 11:26:17,0,7,1,Active without succeeded register code; 5+ expired register codes
+664682,Active,2026-08-16 10:08:19,0,0,1,Active without succeeded register code
+664679,Active,2026-08-16 10:04:25,0,1,1,Active without succeeded register code
+664671,Active,2026-08-16 10:00:41,0,3,1,Active without succeeded register code
+664542,Active,2026-08-16 02:13:23,0,0,1,Active without succeeded register code
+664538,Active,2026-08-16 02:02:18,0,0,1,Active without succeeded register code
+664537,Active,2026-08-16 02:00:30,0,0,1,Active without succeeded register code
+664536,Active,2026-08-16 01:59:22,0,0,1,Active without succeeded register code
+664535,Active,2026-08-16 01:54:50,0,0,1,Active without succeeded register code
+664534,Active,2026-08-16 01:54:33,0,0,1,Active without succeeded register code
+664532,Active,2026-08-16 01:52:19,0,0,1,Active without succeeded register code
+664531,Active,2026-08-16 01:45:43,0,0,1,Active without succeeded register code
+664528,Active,2026-08-16 01:31:05,0,0,1,Active without succeeded register code
+664527,Active,2026-08-16 01:29:37,0,0,1,Active without succeeded register code
+664433,Pending activation,2026-08-15 20:53:30,0,8,1,5+ expired register codes

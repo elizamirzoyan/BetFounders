@@ -94,7 +94,8 @@ def problematic_users():
     result = df[issues.any(axis=1)].reset_index()[
         ["ID", "StateName", "RegistrationDate", "succeeded", "expired", "pending", "Issues"]]
     result = result.rename(columns={"ID": "UserID", "StateName": "UserState"})
-    result.to_csv("problematic_users.csv", index=False)
+    os.makedirs("public", exist_ok=True)
+    result.to_csv("public/problematic_users.csv", index=False)
 
     counts = issues.sum()
     fig = go.Figure(go.Bar(x=counts.values, y=counts.index, orientation="h",
@@ -129,6 +130,7 @@ section {{ background: #fff; border-radius: 8px; padding: 16px; margin-bottom: 2
 .cards {{ display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 16px; margin-bottom: 24px; }}
 .card {{ background: #fff; border-radius: 8px; padding: 16px; box-shadow: 0 1px 3px #0001; }}
 .card span {{ display: block; color: #666; font-size: 14px; }} .card b {{ font-size: 28px; }}
+.download {{ display: inline-block; background: #2e7d32; color: #fff; padding: 8px 14px; border-radius: 6px; text-decoration: none; }}
 .table {{ max-height: 500px; overflow: auto; }}
 table {{ border-collapse: collapse; width: 100%; font-size: 13px; }}
 th, td {{ padding: 6px 10px; border-bottom: 1px solid #eee; text-align: left; }}
@@ -137,9 +139,10 @@ th {{ position: sticky; top: 0; background: #f0f0f0; }}
 <h1>BetFounders Data Report</h1>
 <div class="cards">{cards_html}</div>
 {charts}
-<section><h2>Problematic user list</h2><div class="table">{table}</div></section>
+<section><h2>Problematic user list</h2>
+<p><a class="download" href="problematic_users.csv" download>Download CSV ({len(problems)} users)</a></p>
+<div class="table">{table}</div></section>
 </body></html>"""
-    os.makedirs("public", exist_ok=True)
     with open("public/index.html", "w", encoding="utf-8") as f:
         f.write(html)
     print("\nSaved public/index.html")
